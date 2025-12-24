@@ -1,0 +1,75 @@
+
+.stApp{
+    background: linear-gradient(135deg, #7fedef 0%, #5996c3 50%, #8963c2 100%);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0f172a;
+}
+
+.card{
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    padding: 22px;
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.15);
+    margin-bottom: 25px;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+h1{
+    color: #0b132b;
+    font-weight: 700;
+}
+
+h2, h3{
+    color: #1e293b;
+    font-weight: 600;
+}
+
+div[data-testid="metric-container"]{
+    background: linear-gradient(135deg, #a78bfa 0%, #60a5fa 50%, #5eead4 100%);
+    border-radius: 18px;
+    padding: 18px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+    color: #0f172a;
+}
+
+div[data-testid="metric-container"] label{
+    color: #0f172a !important;
+    font-weight: 600;
+}
+
+div[data-testid="metric-container"] div{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.prediction-box{
+    background: linear-gradient(135deg, #ecfeff 0%, #dbeafe 50%, #ede9fe 100%);
+    padding: 26px;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700;
+    color: #1e3a8a;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(30, 58, 138, 0.18);
+    border: 1px solid rgba(99,102,241,0.3);
+}
+
+button{
+    background: linear-gradient(135deg, #5eead4, #60a5fa, #a78bfa);
+    color: #0f172a;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-weight: 600;
+    border: none;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.25);
+}
