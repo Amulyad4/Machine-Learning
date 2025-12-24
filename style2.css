@@ -1,0 +1,80 @@
+.stApp {
+    background: linear-gradient(180deg, #052e16, #022c22);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f0fdf4;
+}
+
+/* Card */
+.card {
+    background: rgba(6, 78, 59, 0.75);
+    backdrop-filter: blur(14px);
+    padding: 26px;
+    border-radius: 22px;
+    box-shadow: 0 0 30px rgba(34, 197, 94, 0.35);
+    margin-bottom: 28px;
+    border: 1px solid rgba(134, 239, 172, 0.35);
+}
+
+/* Headings */
+h1 {
+    color: #fef3c7;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 0 0 14px rgba(255,255,255,0.6);
+}
+
+h2, h3 {
+    color: #86efac;
+    font-weight: 700;
+}
+
+/* Metrics */
+div[data-testid="metric-container"] {
+    background: linear-gradient(135deg, #16a34a, #dc2626);
+    border-radius: 18px;
+    padding: 18px;
+    box-shadow: 0 0 22px rgba(220,38,38,0.5);
+    color: #fff;
+}
+
+div[data-testid="metric-container"] label {
+    color: #fff !important;
+    font-weight: 600;
+}
+
+div[data-testid="metric-container"] div {
+    font-size: 26px;
+    font-weight: 800;
+}
+
+/* Prediction Box */
+.prediction-box {
+    background: linear-gradient(135deg, #052e16, #16a34a, #dc2626);
+    padding: 30px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 900;
+    color: #fef3c7;
+    margin-top: 24px;
+    border-radius: 24px;
+    box-shadow: 0 0 35px rgba(255,255,255,0.5);
+    border: 1px solid rgba(254,243,199,0.5);
+}
+
+/* Buttons */
+button {
+    background: linear-gradient(135deg, #dc2626, #16a34a);
+    color: #fff;
+    border-radius: 14px;
+    padding: 10px 22px;
+    font-weight: 800;
+    border: none;
+    box-shadow: 0 0 22px rgba(255,255,255,0.4);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.06);
+    box-shadow: 0 0 35px rgba(254,243,199,0.8);
+}
